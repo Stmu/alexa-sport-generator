@@ -1,4 +1,4 @@
-service: alexa-how-does-the-thing-make
+service: alexa-sport-generator
 
 provider:
   name: aws
