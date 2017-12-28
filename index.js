@@ -8,7 +8,7 @@ var SKILL_STATES = {
 var exercises = [
     "kniebeuge",
     "liegestütze",
-    "sit ups",
+    "Sit Apps",
     "rumpfbeugen"
 ]
 
@@ -32,8 +32,8 @@ exports.handler = function (event, context, callback) {
 var sportHandler = Alexa.CreateStateHandler(SKILL_STATES.SPORT, {
     "exercise": function () {
       
-        var greetingsNumber = Math.floor((Math.random() * greetings.length) + 1);
-        var exerciseNumber = Math.floor((Math.random() * exercises.length) + 1);
+        var greetingsNumber = Math.floor((Math.random() * greetings.length));
+        var exerciseNumber = Math.floor((Math.random() * exercises.length));
         var repetition = Math.floor((Math.random() * 10) + 1);
        
         var speechout = util.format(greetings[greetingsNumber], repetition, exercises[exerciseNumber]); 
