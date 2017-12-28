@@ -8,14 +8,21 @@ var SKILL_STATES = {
 var exercises = [
     "kniebeuge",
     "liegestütze",
-    "Sit Apps",
-    "rumpfbeugen"
+    "Sit Ups",
+    "rumpfbeugen",
 ]
 
 var greetings = [
     "Hallo ich helfe dir fit zu bleiben. Dazu mach %s %s.",
     "Ich helfe dir fit zu werden. Dazu führe %s %s aus.",
     "Führe %s %s aus. Das hält dich fit",
+    "Hallo, Kreise 20 sekunden mit dem linken arm",
+    "Hallo, Kreise 20 sekunden mit dem rechten arm",
+    "Hallo, Kreise 20 sekunden mit dem becken",
+    "Hallo, Kreise 20 sekunden mit dem rechten fuß",
+    "Hallo, Kreise 20 sekunden mit dem linken fuß",
+    "Hallo, Stehe 20 sekunden mit dem linken bein",
+    "Hallo, Stehe 20 sekunden mit dem bein bein",
 ]
 
 var Alexa = require("alexa-sdk");
