@@ -21,8 +21,10 @@ var greetings = [
     "Hallo, Kreise 20 sekunden mit dem becken und dann ",
     "Hallo, Kreise 20 sekunden mit dem rechten fuß und dann ",
     "Hallo, Kreise 20 sekunden mit dem linken fuß und dann ",
-    "Hallo, Stehe 20 sekunden mit dem linken bein und dann ",
-    "Hallo, Stehe 20 sekunden mit dem bein bein und dann ",
+    "Hallo, Stehe 20 sekunden auf dem linken bein und dann ",
+    "Hallo, Stehe 20 sekunden auf dem bein bein und dann ",
+    "Hallo, Kreise 20 sekunden mit dem Kopf und dann ",
+    "Hallo, Nicke 20 sekunden mit dem Kopf und dann ",
 ]
 
 var Alexa = require("alexa-sdk");
